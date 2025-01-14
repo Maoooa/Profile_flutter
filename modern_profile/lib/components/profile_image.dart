@@ -25,7 +25,7 @@ class ProfileImage extends StatelessWidget {
               backgroundColor: Colors.amber,
               child: Icon(
                 Icons.edit,
-                size: 20,
+                size: 22,
                 color: Colors.black,
               ),
             ),
