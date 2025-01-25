@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:modern_profile/constant/constant.dart';
 import 'package:modern_profile/screens/editprofilescreen.dart';
+import 'package:modern_profile/screens/homescreen/home_screen.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -21,11 +22,18 @@ class _ProfileScreenState extends State<ProfileScreen> {
   }
 
   final List<Widget> _pages = [
-    const Center(child: Text('Home')),
-    const Center(child: Text('Setting')),
+    const MyApp(),
     const Center(child: Text('Favorite')),
+    const Center(child: Text('Setting')),
     const EditProfileScreen(),
   ] ;
+
+  final List<String> _titles = [
+      'Home',
+      'Favorite',
+      'Setting',
+      'Edit Profile',
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -38,7 +46,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
         ),
         title: Center(
           child: Text(
-          'Edit Profile',
+          _titles[_selectedItem],
           style: textTitle,
         )),
         actions: const [

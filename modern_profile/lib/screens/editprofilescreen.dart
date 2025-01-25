@@ -60,15 +60,15 @@ class EditProfileScreen extends StatelessWidget {
           const SizedBox(
             height: 13,
           ),
-          const ProfileMenu(title: 'Billing Detail', icons: Icons.wallet),
-          const SizedBox(
-            height: 13,
-          ),
-          const ProfileMenu(title: 'User Management', icons: Icons.person_2),
+          const ProfileMenu(title: 'Favorite', icons: Icons.favorite),
           const SizedBox(
             height: 13,
           ),
           const ProfileMenu(title: 'Bookmark', icons: Icons.book),
+          const SizedBox(
+            height: 13,
+          ),
+          const ProfileMenu(title: 'User Management', icons: Icons.person_2),
           const SizedBox(
             height: 50,
           ),
