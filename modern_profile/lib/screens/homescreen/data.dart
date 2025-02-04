@@ -66,11 +66,11 @@ const List<List<String>> commentUsers = [
   ['@JaxOnFire', '@LeoVibes', '@KingCarter'],
   ['@Max_theExplorer', '@SamuraiScott', '@Ryder_Rising'],
   ['@Tyler_TheBeast', '@MiaInMotion', '@JaxOnFire'],
-  ['@LeoVibes', '@KingCarter', '@Max_theExplorer'],
+  ['@LeoVibes', '@Ryder_Rising', '@Max_theExplorer'],
   ['@SamuraiScott', '@Ryder_Rising', '@Tyler_TheBeast'],
   ['@MiaInMotion', '@JaxOnFire', '@LeoVibes'],
   ['@KingCarter', '@Max_theExplorer', '@SamuraiScott'],
-  ['@Ryder_Rising', '@Tyler_TheBeast', '@MiaInMotion'],
+  ['@Ryder_Rising', '@LeoVibes', '@MiaInMotion'],
 ];
 List<String> userBios = [
   'Developer and tech enthusiast.',

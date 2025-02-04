@@ -99,7 +99,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    int oldCommentsToShow = 1; // กำหนดจำนวนคอมเมนต์เก่าที่ต้องการแสดง
+    int oldCommentsToShow = 2; // กำหนดจำนวนคอมเมนต์เก่าที่ต้องการแสดง
 
     return Scaffold(
       backgroundColor: Color(0xffb3bdca),
