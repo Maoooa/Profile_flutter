@@ -19,7 +19,7 @@ class ProfileMenu extends StatelessWidget {
       child: Row(
         children: [
           CircleAvatar(
-            backgroundColor: bgSecendaryColor,
+            backgroundColor: iconSkyColor,
             child: Icon(
               icons,
               size: 24,
@@ -39,11 +39,11 @@ class ProfileMenu extends StatelessWidget {
           const Spacer(),
           const CircleAvatar(
             radius: 16,
-            backgroundColor: bgYellow,
+            backgroundColor: iconSkyColor,
             child: Icon(
               Icons.arrow_forward_ios,
               size: 16,
-              color: iconSecondaryColor,
+              color: bgPostColor,
             ),
           )
         ],

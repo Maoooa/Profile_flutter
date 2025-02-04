@@ -4,6 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 const bgPrimaryColor = Colors.black;
 const bgSecendaryColor = Color.fromARGB(255, 148, 148, 148);
 const bgYellow = Colors.amber;
+const bgPostColor = Color.fromARGB(255, 243, 242, 235);
 
 const textPrimaryColor = Colors.white;
 const textSecondaryColor = Colors.black;
@@ -12,6 +13,10 @@ const textGrayColor = Color.fromARGB(255, 148, 148, 148);
 const iconPrimaryColor = Colors.amber;
 const iconSecondaryColor = Colors.white;
 const iconGreyColor = Colors.grey;
+const iconSkyColor =  Color(0xff6d829b);
+const iconRedColor =  Color.fromARGB(255, 218, 61, 61);
+
+
 
 final textTitle = GoogleFonts.poppins(
   fontSize: 25,
